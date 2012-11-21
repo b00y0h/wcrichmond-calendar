@@ -1,0 +1,59 @@
+@import "bourbon";
+@import "variables";
+
+.ai1ec-agenda-view {
+    .ai1ec-event {
+        margin:1em 0;
+    }
+    .ai1ec-date-title {
+        font-size:16px;
+        text-transform:uppercase;
+        margin:1em 0 1em -1em;
+    }
+  .ai1ec-event-title {
+    font-family:'QuicksandBook';
+    color:$red;
+  }
+  .ai1ec-date-events {
+        margin: 0 0.75em 0 0 !important;
+        padding: 0 !important;
+    > li {
+      list-style: none !important;
+    }
+  }
+  > li {
+    list-style: none !important;
+  }
+  .ai1ec-event-header {
+    color:black;
+    font-size:14px;
+  }
+  .ai1ec-agenda-view {
+    margin:0;
+    padding:0;
+  }
+}
+
+.ai1ec-dropdown, .ai1ec-label {
+    display:none!important;
+}
+
+.ai1ec-calendar-toolbar {
+    margin:0 -60px;
+    ul {
+        list-style:none !important;
+        margin:0;
+        padding:0;
+        li {
+            @include box-sizing(border-box);
+            float:left;
+            margin-right:.5%;
+            padding:2em 1em;
+            height:60px;
+            width:19.6%;
+            &:last-of-type {
+                margin-right:0;
+            }
+        }
+    }
+}
