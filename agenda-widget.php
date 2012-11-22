@@ -15,12 +15,9 @@
 			<?php foreach( $dates as $timestamp => $date_info ): ?>
 				<li class="ai1ec-date <?php if( isset( $date_info['today'] ) && $date_info['today'] ) echo 'ai1ec-today'; ?>">
 					<div class="ai1ec-date-title">
-						<div class="ai1ec-month"><?php echo date_i18n( 'M', $timestamp, true ); ?></div>
-						<div class="ai1ec-day"><?php echo date_i18n( 'j', $timestamp, true ); ?></div>
-						<div class="ai1ec-weekday"><?php echo date_i18n( 'D', $timestamp, true ); ?></div>
-						<?php if ( $show_year_in_agenda_dates ): ?>
-							<div class="ai1ec-year"><?php echo date_i18n( 'Y', $timestamp, true ) ?></div>
-						<?php endif; ?>
+                    <span class="ai1ec-month"><?php echo date_i18n( 'F', $timestamp, true ) ?></span>
+                    <span class="ai1ec-day"><?php echo date_i18n( 'j', $timestamp, true ) ?></span>
+                    <span class="ai1ec-weekday"><?php // echo date_i18n( 'D', $timestamp, true ) ?></span>
 					</div>
 					<ol class="ai1ec-date-events">
 						<?php foreach( $date_info['events'] as $category ): ?>
@@ -35,25 +32,30 @@
 
 									<a href="<?php echo esc_attr( get_permalink( $event->post_id ) ) . $event->instance_id; ?>"
 										class="ai1ec-popup-summary-parent">
-										<?php if( ! $event->allday ): ?>
-											<span class="ai1ec-event-time">
-												<?php echo esc_html( $event->start_time ); ?></span>
-											</span>
-										<?php endif; ?>
-										<span class="ai1ec-event-title">
+										<div class="ai1ec-event-title">
 											<?php echo esc_html( apply_filters( 'the_title', $event->post->post_title ) ); ?>
-											<?php if ( $show_location_in_title && isset( $event->venue ) && $event->venue != '' ): ?>
-												<span class="ai1ec-event-location"><?php echo sprintf( __( '@ %s', AI1EC_PLUGIN_NAME ), $event->venue ); ?></span>
-											<?php endif; ?>
-										</span>
-										<?php if( $event->allday ): ?>
-											<span class="ai1ec-allday-label">
-												<?php _e( 'All Day', AI1EC_PLUGIN_NAME ) ?>
+                                        </div>
+                                        <?php if( ! $event->allday ): ?>
+                                            <div class="ai1ec-event-time">
+                                                <?php echo esc_html( $event->start_time ); ?></span>
+                                            </div>
+                                        <?php endif; ?>
+                                        <?php if ( $show_location_in_title && isset( $event->venue ) && $event->venue != '' ): ?>
+                                            <div class="ai1ec-event-location"><?php echo $event->venue ?></div>
+                                        <?php endif; ?>
+                                        <?php if( $event->allday ): ?>
+                                            <span class="ai1ec-allday-label">
+                                                <?php _e( 'All Day', AI1EC_PLUGIN_NAME ) ?>
 											</span>
 										<?php endif; ?>
 										<?php if( $event->category_colors ): ?>
 											<span class="ai1ec-category-colors"><?php echo $event->category_colors; ?></span>
 										<?php endif; ?>
+
+
+                                                <?php if( $event->post_excerpt ): ?>
+                                                    <p class="ai1ec-popup-excerpt"><?php echo esc_html( $event->post_excerpt ) ?></p>
+                                                <?php endif ?>
 
 										<div class="ai1ec-popup-summary-wrap">
 											<div class="ai1ec-popup-summary">

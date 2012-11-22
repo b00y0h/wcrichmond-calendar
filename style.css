@@ -1641,7 +1641,7 @@ li[class*=" icon-"].icon-large:before {
 
 /* line 1365, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .timely .btn-toolbar {
-  margin-top: 8px;
+  padding-top: 8px;
   margin-bottom: 8px; }
 
 /* line 1369, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
@@ -2008,320 +2008,91 @@ li[class*=" icon-"].icon-large:before {
   padding: 0 !important;
   width: 30px !important; }
 
-/* line 1680, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view {
-  font-size: 0.8em !important;
-  -webkit-transform: translatez(0); }
+/* line 3, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+#ai1ec-container {
+  margin: 0 -60px; }
 
-/* line 1684, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-no-results {
-  font-style: italic;
-  font-size: 1.4em !important; }
-
-/* line 1688, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view > ol {
-  margin: 0 !important;
-  padding: 0 !important; }
-
-/* line 1692, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view li {
+/* line 8, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-action-agenda .calendar-wrapper {
+  background-color: white;
+  border: 3px solid #cc2933;
+  border-right: none; }
+/* line 13, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-action-agenda #agenda-images {
+  float: left;
+  margin-right: 20px; }
+/* line 18, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-action-agenda .ai1ec-calendar-toolbar ul {
   list-style: none !important;
-  border: none !important; }
+  margin: 0;
+  padding: 0; }
+  /* line 22, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-action-agenda .ai1ec-calendar-toolbar ul li {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    margin-right: .5%;
+    padding: 2em 1em;
+    height: 60px;
+    width: 19.6%; }
+    /* line 29, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+    .ai1ec-action-agenda .ai1ec-calendar-toolbar ul li:last-of-type {
+      margin-right: 0; }
 
-/* line 1696, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-date-events {
-  margin: 0 0.5em 0 0 !important;
-  padding: 0 !important;
-  display: block; }
-
-/* line 1701, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-date {
-  border-top: 1px solid #e5e5e5 !important;
-  background: rgba(242, 242, 242, 0.8);
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f2f2f2), color-stop(1em, #f2f2f2), to(rgba(242, 242, 242, 0)));
-  background: -webkit-linear-gradient(#f2f2f2, #f2f2f2 1em, rgba(242, 242, 242, 0));
-  background: -moz-linear-gradient(top, #f2f2f2, #f2f2f2 1em, rgba(242, 242, 242, 0));
-  background: -ms-linear-gradient(#f2f2f2, #f2f2f2 1em, rgba(242, 242, 242, 0));
-  background: -o-linear-gradient(#f2f2f2, #f2f2f2 1em, rgba(242, 242, 242, 0));
-  background: linear-gradient(#f2f2f2, #f2f2f2 1em, rgba(242, 242, 242, 0));
-  background-repeat: no-repeat;
-  margin: 0 !important;
-  padding: 0 !important;
-  float: left;
-  width: 100%; }
-
-/* line 1716, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today {
-  border-top: 1px solid #f0f0aa !important;
-  background: rgba(244, 244, 191, 0.8);
-  background: -webkit-gradient(linear, 0 0, 0 100%, from(#f4f4bf), color-stop(1em, #f4f4bf), to(rgba(244, 244, 191, 0)));
-  background: -webkit-linear-gradient(#f4f4bf, #f4f4bf 1em, rgba(244, 244, 191, 0));
-  background: -moz-linear-gradient(top, #f4f4bf, #f4f4bf 1em, rgba(244, 244, 191, 0));
-  background: -ms-linear-gradient(#f4f4bf, #f4f4bf 1em, rgba(244, 244, 191, 0));
-  background: -o-linear-gradient(#f4f4bf, #f4f4bf 1em, rgba(244, 244, 191, 0));
-  background: linear-gradient(#f4f4bf, #f4f4bf 1em, rgba(244, 244, 191, 0));
-  background-repeat: no-repeat; }
-
-/* line 1727, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-date-title {
-  border: 1px solid #c2c2c2;
-  border-top-color: #ffffff;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  border-radius: 5px;
-  -webkit-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
-  -moz-box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.08);
-  overflow: hidden;
-  color: #525252;
-  float: left;
-  font-size: 8.7pt;
-  font-weight: bold;
-  background-color: #f9f9f9;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(white), color-stop(1em, white), to(#e0e0e0));
-  background-image: -webkit-linear-gradient(white, white 1em, #e0e0e0);
-  background-image: -moz-linear-gradient(top, white, white 1em, #e0e0e0);
-  background-image: -ms-linear-gradient(white, white 1em, #e0e0e0);
-  background-image: -o-linear-gradient(white, white 1em, #e0e0e0);
-  background-image: linear-gradient(white, white 1em, #e0e0e0);
-  background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e0e0e0', GradientType=0);
-  line-height: 1.2em;
-  margin: 0.5em 0.75em !important;
-  text-align: center;
-  text-shadow: 0 1px 0 #ffffff;
-  width: 3.5em; }
-
-/* line 1756, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-month {
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background: #617284;
-  font-size: 0.9em !important;
+/* line 41, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-event {
+  margin: 1em 0; }
+/* line 44, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-date-title {
+  font-size: 16px;
   text-transform: uppercase;
-  letter-spacing: 0.15em;
-  color: #ffffff;
-  font-weight: bold;
-  line-height: 1.3em; }
+  margin: 1em 0; }
+/* line 49, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-event-title {
+  font-family: 'QuicksandBook';
+  color: #cc2933; }
+/* line 53, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-date-events {
+  margin: 0 0 .75em 1em !important;
+  padding: 0 !important; }
+  /* line 56, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-view .ai1ec-date-events > li {
+    list-style: none !important; }
+/* line 60, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view > li {
+  list-style: none !important; }
+/* line 63, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-event-header {
+  color: black;
+  font-size: 14px; }
+/* line 67, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-view .ai1ec-agenda-view {
+  margin: 0;
+  padding: 0; }
 
-/* line 1766, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-day {
-  font-size: 1.7em !important;
-  padding: 0.2em 0 0.1em !important;
-  font-weight: bold; }
+/* line 73, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-dropdown, .ai1ec-label {
+  display: none!important; }
 
-/* line 1771, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-weekday {
-  font-size: 0.9em !important;
-  line-height: 1.2em;
-  font-weight: bold; }
-
-/* line 1776, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-year {
-  color: #ffffff;
-  background: #617284;
-  font-size: 0.8em !important;
-  letter-spacing: 0.15em;
-  padding: 0 0.1em;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25); }
-
-/* line 1784, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event {
-  clear: right;
-  font-size: 1.2em;
-  line-height: 1.3em;
-  margin: 0.5em 0 0.5em 4.9em !important;
-  padding: 0 !important;
-  position: relative; }
-
-/* line 1792, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event a {
-  color: #566675;
-  display: block;
-  background: #ffffff;
-  border: 1px solid #d4d4d4;
-  -webkit-border-radius: 0.4em;
-  -moz-border-radius: 0.4em;
-  border-radius: 0.4em;
-  padding: 0.2em 0.4em !important;
-  text-decoration: none !important; }
-
-/* line 1803, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event a:hover {
-  border-color: #aeaeae;
-  color: #414c58;
-  text-decoration: none !important; }
-
-/* line 1808, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-time {
-  font-weight: bold; }
-
-/* line 1811, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event .ai1ec-event-title {
-  font-weight: normal; }
-
-/* line 1814, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event.ai1ec-allday a .ai1ec-event-click {
-  -webkit-border-radius: 0.3em;
-  -moz-border-radius: 0.3em;
-  border-radius: 0.3em;
-  text-shadow: none; }
-
-/* line 1820, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event.ai1ec-allday a .ai1ec-allday-label {
-  background: #566675;
-  -webkit-border-radius: 0.9em;
-  -moz-border-radius: 0.9em;
-  border-radius: 0.9em;
-  color: #ffffff;
-  display: inline-block;
-  font-size: 0.75em;
-  font-weight: normal;
-  margin: 0 0 0.2em;
-  padding: 0em 0.7em 0.15em;
-  vertical-align: top;
-  background-color: #515f6e;
-  background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#7b8c9d), color-stop(1em, #566675), to(#3c4752));
-  background-image: -webkit-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
-  background-image: -moz-linear-gradient(top, #7b8c9d, #566675 1em, #3c4752);
-  background-image: -ms-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
-  background-image: -o-linear-gradient(#7b8c9d, #566675 1em, #3c4752);
-  background-image: linear-gradient(#7b8c9d, #566675 1em, #3c4752);
-  background-repeat: no-repeat;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#7b8c9d', endColorstr='#3c4752', GradientType=0); }
-
-/* line 1842, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event .ai1ec-category-colors {
-  font-size: 0.9em; }
-
-/* line 1845, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-event .ai1ec-category-colors .ai1ec-category-color {
-  margin: 0 0 -0.1em;
-  padding: 1px; }
-
-/* line 1849, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-subscribe-google img {
-  width: 19px !important;
-  height: 20px !important;
-  margin: -5px 0.5em -5px 0 !important; }
-
-/* line 1854, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary-parent {
-  position: relative; }
-
-/* line 1857, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary {
-  top: -9999px;
-  left: -14px;
-  opacity: 0;
-  padding: 4px 7px;
-  width: 124px;
-  margin-right: 7px;
-  position: relative;
-  font-size: 10px;
-  font-weight: normal;
-  background: #ffffff;
-  border: 1px solid #b3b3b3;
-  border-bottom-color: #999999;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
-  border-radius: 4px;
-  -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
-  -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
-  -webkit-transition-property: opacity, left, top;
-  -ms-transition-property: opacity, left, top;
-  -moz-transition-property: opacity, left, top;
-  transition-property: opacity, left, top;
-  -webkit-transition-duration: 0.4s, 0.4s, 0s;
-  -ms-transition-duration: 0.4s, 0.4s, 0s;
-  -moz-transition-duration: 0.4s, 0.4s, 0s;
-  transition-duration: 0.4s, 0.4s, 0s;
-  -webkit-transition-delay: 0s, 0s, 0.4s;
-  -ms-transition-delay: 0s, 0s, 0.4s;
-  -moz-transition-delay: 0s, 0s, 0.4s;
-  transition-delay: 0s, 0s, 0.4s; }
-
-/* line 1889, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary .ai1ec-category-colors {
-  float: right;
-  font-size: 0.9em;
-  margin: 0.2em 0.2em -0.2em -0.1em; }
-
-/* line 1894, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary .ai1ec-category-colors .ai1ec-category-color {
-  padding: 1px; }
-
-/* line 1897, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary-right .ai1ec-popup-summary {
-  left: inherit;
-  right: 20px;
-  margin-right: -147px;
-  -webkit-transition-property: opacity, right, top;
-  -ms-transition-property: opacity, right, top;
-  -moz-transition-property: opacity, right, top;
-  transition-property: opacity, right, top;
-  -webkit-transition-duration: 0.4s, 0.4s, 0s;
-  -ms-transition-duration: 0.4s, 0.4s, 0s;
-  -moz-transition-duration: 0.4s, 0.4s, 0s;
-  transition-duration: 0.4s, 0.4s, 0s;
-  -webkit-transition-delay: 0s, 0s, 0.4s;
-  -ms-transition-delay: 0s, 0s, 0.4s;
-  -moz-transition-delay: 0s, 0s, 0.4s;
-  transition-delay: 0s, 0s, 0.4s; }
-
-/* line 1914, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary-wrap {
-  position: absolute;
-  right: 100%;
-  top: 50%;
-  visibility: hidden; }
-
-/* line 1920, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary-parent:hover .ai1ec-popup-summary-wrap {
-  visibility: visible; }
-
-/* line 1923, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary-parent:hover .ai1ec-popup-summary {
-  left: 0;
-  opacity: 1;
-  top: -45px;
-  z-index: 9999;
-  -webkit-transition-delay: 0s;
-  -ms-transition-delay: 0s;
-  -moz-transition-delay: 0s;
-  transition-delay: 0s; }
-
-/* line 1933, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-title {
-  font-size: 12px;
-  font-weight: bold; }
-
-/* line 1937, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view p.ai1ec-popup-excerpt {
-  font-size: 11px;
-  overflow: hidden; }
-
-/* line 1942, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary:after,
-.ai1ec-agenda-widget-view .ai1ec-popup-summary:before {
-  left: 100%;
-  border: solid transparent;
-  content: " ";
-  height: 0;
-  width: 0;
-  position: absolute;
-  pointer-events: none; }
-
-/* line 1951, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary:after {
-  border-left-color: #ffffff;
-  border-width: 7px;
-  top: 45px;
-  margin-top: -7px; }
-
-/* line 1957, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
-.ai1ec-agenda-widget-view .ai1ec-popup-summary:before {
-  border-left-color: #8c8c8c;
-  border-width: 8px;
-  top: 45px;
-  margin-top: -8px; }
+/* line 77, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+.ai1ec-agenda-widget-view {
+  color: black; }
+  /* line 78, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view ol, .ai1ec-agenda-widget-view li {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  /* line 79, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view ol {
+    margin: 0 1em; }
+  /* line 81, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view .ai1ec-event-title {
+    font-weight: bold; }
+  /* line 84, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view a, .ai1ec-agenda-widget-view a:hover {
+    color: black;
+    text-decoration: none; }
+  /* line 88, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view .ai1ec-event-location, .ai1ec-agenda-widget-view .ai1ec-event-time, .ai1ec-agenda-widget-view .ai1ec-allday-label {
+    color: #cc2933; }

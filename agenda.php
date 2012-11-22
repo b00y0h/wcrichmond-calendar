@@ -1,3 +1,6 @@
+<div id="agenda-images">
+    <img src="<?php echo $this->get_theme_img_url( 'loom.jpg' ); ?>" alt="">
+</div>
 <h2 class="ai1ec-calendar-title"><?php // echo esc_html( $title ); ?></h2>
 <div class="ai1ec-title-buttons btn-toolbar">
 	<div class="btn-group">
@@ -30,7 +33,7 @@
 					<span class="ai1ec-day"><?php echo date_i18n( 'j', $timestamp, true ) ?></span>
 					<span class="ai1ec-weekday"><?php // echo date_i18n( 'D', $timestamp, true ) ?></span>
 					<?php if ( $show_year_in_agenda_dates ): ?>
-						<div class="ai1ec-year"><?php echo date_i18n( 'Y', $timestamp, true ) ?></div>
+						<span class="ai1ec-year"><?php echo date_i18n( 'Y', $timestamp, true ) ?></span>
 					<?php endif; ?>
 				</div>
 				<ol class="ai1ec-date-events">
@@ -70,32 +73,6 @@
 								<?php // Insert post ID for use by JavaScript filtering later ?>
 								<input type="hidden" class="ai1ec-post-id" value="<?php echo $event->post_id ?>" />
 
-								<?php // Hidden summary, until clicked ?>
-								<div class="ai1ec-event-summary<?php if( $expanded ) echo ' ai1ec-expanded'; ?>">
-
-									<div class="ai1ec-event-description">
-										<?php echo apply_filters( 'the_content', $event->post->post_content ) ?>
-
-<!-- 										<div class="ai1ec-event-overlay">
-											<a class="ai1ec-read-more btn"
-												href="<?php echo esc_attr( get_permalink( $event->post_id ) . $event->instance_id ) ?>">
-												<?php _e( 'Read more', AI1EC_PLUGIN_NAME ) ?> <i class="icon-arrow-right"></i>
-											</a>
-											<?php if( $event->categories_html ): ?>
-												<div class="ai1ec-categories">
-													<span class="ai1ec-label"><?php _e( 'Categories:', AI1EC_PLUGIN_NAME ) ?></span>
-													<?php echo $event->categories_html ?>
-												</div>
-											<?php endif ?>
-											<?php if( $event->tags_html ): ?>
-												<div class="ai1ec-tags">
-													<span class="ai1ec-label"><?php _e( 'Tags:', AI1EC_PLUGIN_NAME ) ?></span>
-													<?php echo $event->tags_html ?>
-												</div>
-											<?php endif ?>
-										</div>
- -->									</div>
-								</div>
 
 
 							</li>

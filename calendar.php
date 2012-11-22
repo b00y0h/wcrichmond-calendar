@@ -58,14 +58,14 @@
           </div>
       <?php endif // $categories || $tags ?>
 </div>
-
+<div class="calendar-wrapper clearfix">
 <div id="ai1ec-calendar-view-container">
   <div id="ai1ec-calendar-view-loading" class="ai1ec-loading"></div>
   <div id="ai1ec-calendar-view">
     <?php echo $view ?>
   </div>
 </div>
-
+</div> <!-- .calendar-wrapper -->
 <?php if( $show_subscribe_buttons ): ?>
   <a class="btn ai1ec-subscribe"
     href="<?php echo AI1EC_EXPORT_URL ?>"
