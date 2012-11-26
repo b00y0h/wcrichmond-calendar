@@ -2,7 +2,10 @@
 @import "variables";
 
 
-
+.ai1ec-calendar-view, .ai1ec-agenda-view {
+    // prevent calendar from shrinking down when going next/prev
+    min-height:800px;
+}
 
 .input-block-level {
   display: block;
