@@ -1,5 +1,5 @@
 <div id="agenda-images">
-    <img src="<?php echo $this->get_theme_img_url( 'loom.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="image1" src="<?php echo $this->get_theme_img_url( 'loom.jpg' ); ?>" alt="">
 </div>
 <h2 class="ai1ec-calendar-title"><?php // echo esc_html( $title ); ?></h2>
 <div class="ai1ec-title-buttons btn-toolbar">
