@@ -30,8 +30,7 @@
 									<?php // Insert post ID for use by JavaScript filtering later ?>
 									<input type="hidden" class="ai1ec-post-id" value="<?php echo $event->post_id; ?>" />
 
-									<a href="<?php echo esc_attr( get_permalink( $event->post_id ) ) . $event->instance_id; ?>"
-										class="ai1ec-popup-summary-parent">
+									<a class="ai1ec-popup-summary-parent"><!-- href="<?php echo esc_attr( get_permalink( $event->post_id ) ) . $event->instance_id; ?>" -->
 										<div class="ai1ec-event-title">
 											<?php echo esc_html( apply_filters( 'the_title', $event->post->post_title ) ); ?>
                                         </div>
