@@ -43,7 +43,7 @@
 							<div class="ai1ec-day">
 								<div class="ai1ec-date"><?php echo $day['date'] ?></div>
 								<?php foreach ( $day['events'] as $event ): ?>
-									<a href="<?php echo esc_attr( get_permalink( $event->post_id ) ) . $event->instance_id ?>"
+									<a data-href="<?php echo esc_attr( get_permalink( $event->post_id ) ) . $event->instance_id ?>"
 										<?php if( $event->multiday ) : ?>
 											data-end-day="<?php echo $event->multiday_end_day; ?>"
 											data-start-truncated="<?php echo $event->start_truncated ? 'true' : 'false'; ?>"
