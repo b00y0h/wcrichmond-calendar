@@ -900,37 +900,13 @@ i.icon-print {
   border-radius: 4px;
   -webkit-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
   -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
-  -webkit-transition-property: opacity, left, top;
-  -ms-transition-property: opacity, left, top;
-  -moz-transition-property: opacity, left, top;
-  transition-property: opacity, left, top;
-  -webkit-transition-duration: 0.4s, 0.4s, 0s;
-  -ms-transition-duration: 0.4s, 0.4s, 0s;
-  -moz-transition-duration: 0.4s, 0.4s, 0s;
-  transition-duration: 0.4s, 0.4s, 0s;
-  -webkit-transition-delay: 0s, 0s, 0.4s;
-  -ms-transition-delay: 0s, 0s, 0.4s;
-  -moz-transition-delay: 0s, 0s, 0.4s;
-  transition-delay: 0s, 0s, 0.4s; }
+  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35); }
 
 /* line 810, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-right .ai1ec-popup-summary {
   left: inherit;
   right: 20px;
-  margin-right: -147px;
-  -webkit-transition-property: opacity, right, top;
-  -ms-transition-property: opacity, right, top;
-  -moz-transition-property: opacity, right, top;
-  transition-property: opacity, right, top;
-  -webkit-transition-duration: 0.4s, 0.4s, 0s;
-  -ms-transition-duration: 0.4s, 0.4s, 0s;
-  -moz-transition-duration: 0.4s, 0.4s, 0s;
-  transition-duration: 0.4s, 0.4s, 0s;
-  -webkit-transition-delay: 0s, 0s, 0.4s;
-  -ms-transition-delay: 0s, 0s, 0.4s;
-  -moz-transition-delay: 0s, 0s, 0.4s;
-  transition-delay: 0s, 0s, 0.4s; }
+  margin-right: -147px; }
 
 /* line 827, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-wrap {
