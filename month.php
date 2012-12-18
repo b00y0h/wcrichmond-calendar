@@ -60,7 +60,7 @@
 										<input type="hidden" class="ai1ec-post-id" value="<?php echo $event->post_id ?>" />
 
 										<div class="ai1ec-event <?php if( $event->post_id == $active_event ) echo 'ai1ec-active-event' ?>" style="<?php echo $event->color_style ?>">
-											<span class="ai1ec-event-title"><?php echo strip_slashes(esc_html( apply_filters( 'the_title', $event->post->post_title ) )) ?></span>
+											<span class="ai1ec-event-title"><?php echo stripslashes(esc_html( apply_filters( 'the_title', $event->post->post_title ) )) ?></span>
 											<?php if( ! $event->allday ): ?>
 												<span class="ai1ec-event-time"><?php echo esc_html( $event->short_start_time ) ?></span>
 											<?php endif ?>
