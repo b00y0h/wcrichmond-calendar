@@ -75,7 +75,7 @@
 
 												<span class="ai1ec-popup-title">
 												  <?php if( function_exists( 'mb_strimwidth' ) ) : ?>
-												    <?php echo esc_html( mb_strimwidth( apply_filters( 'the_title', $event->post->post_title ), 0, 35, '...' ) ) ?></span>
+												    <?php echo stripslashes(esc_html( mb_strimwidth( apply_filters( 'the_title', $event->post->post_title ), 0, 35, '...' ) )) ?></span>
 												  <?php else : ?>
 												    <?php $read_more = strlen( apply_filters( 'the_title', $event->post->post_title ) ) > 35 ? '...' : '' ?>
 													<?php echo esc_html( substr( apply_filters( 'the_title', $event->post->post_title ), 0, 35 ) . $read_more );  ?>
