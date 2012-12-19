@@ -92,30 +92,31 @@ table.ai1ec-month-view,
   border-collapse: collapse;
   border: 1px solid #dddddd !important;
   margin: 0 !important;
+  margin-bottom: 3em!important;
   background: #ffffff;
   table-layout: fixed !important;
   clear: both;
   width: 100% !important; }
 
-/* line 95, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 96, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .tablescroll_wrapper,
 .ai1ec-oneday-view .tablescroll_wrapper {
   position: relative;
   border-bottom: 1px solid #dddddd; }
 
-/* line 100, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 101, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 table.ai1ec-week-view-original,
 table.ai1ec-oneday-view-original {
   visibility: hidden;
   height: 400px; }
 
-/* line 105, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 106, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 table.ai1ec-week-view-original.tablescroll_body,
 table.ai1ec-oneday-view-original.tablescroll_body {
   visibility: visible;
   height: auto; }
 
-/* line 112, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 113, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view table.tablescroll_head,
 .ai1ec-oneday-view table.tablescroll_head,
 .ai1ec-week-view table.tablescroll_head th,
@@ -123,14 +124,14 @@ table.ai1ec-oneday-view-original.tablescroll_body {
   border-bottom: none !important;
   padding: 2.48px !important; }
 
-/* line 119, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 120, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 table.ai1ec-week-view-original.tablescroll_body,
 table.ai1ec-oneday-view-original.tablescroll_body,
 table.ai1ec-week-view-original.tablescroll_body tr:first-child td,
 table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   border-top: none !important; }
 
-/* line 124, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 125, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view td,
 .ai1ec-week-view td,
 .ai1ec-oneday-view td {
@@ -140,7 +141,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   text-align: left;
   vertical-align: top; }
 
-/* line 133, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 134, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view th,
 .ai1ec-week-view th,
 .ai1ec-oneday-view th {
@@ -148,11 +149,11 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   background: #f5f5f5 !important;
   padding: 0.2em !important; }
 
-/* line 138, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 139, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view td.ai1ec-empty {
   background: #f5f5f5 !important; }
 
-/* line 147, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 148, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view th,
 .ai1ec-week-view th,
 .ai1ec-week-view .ai1ec-hour-marker div,
@@ -163,32 +164,32 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   color: #9e9e9e !important;
   text-shadow: 0 1px 0 #ffffff; }
 
-/* line 152, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 153, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view th,
 .ai1ec-oneday-view th {
   text-align: center !important; }
 
-/* line 155, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 156, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view th {
   text-align: left !important; }
 
-/* line 159, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 160, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-day,
 .ai1ec-oneday-view .ai1ec-day {
   height: 1440px; }
 
-/* line 163, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 164, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view th .ai1ec-weekday-date,
 .ai1ec-oneday-view th .ai1ec-weekday-date {
   font-size: 10.5pt !important;
   font-weight: normal !important; }
 
-/* line 167, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 168, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view th .ai1ec-weekday-day {
   font-size: 9pt !important;
   font-weight: normal !important; }
 
-/* line 175, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 176, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-day,
 .ai1ec-week-view .ai1ec-day,
 .ai1ec-week-view .ai1ec-allday-events,
@@ -196,18 +197,18 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
 .ai1ec-oneday-view .ai1ec-allday-events {
   position: relative; }
 
-/* line 178, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 179, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-day-stretcher {
   float: left;
   height: 94px;
   width: 0; }
 
-/* line 184, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 185, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-today,
 .ai1ec-week-view .ai1ec-today {
   background: #ffffdd !important; }
 
-/* line 187, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 188, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-date {
   background: #eaf4ff;
   color: #a1a7ad;
@@ -220,7 +221,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   text-align: right;
   text-shadow: 0 1px 0 #ffffff; }
 
-/* line 199, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 200, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view {
   clear: both;
   overflow: hidden;
@@ -228,17 +229,17 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   padding: 0 !important;
   background: none; }
 
-/* line 206, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 207, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-no-results {
   font-size: 10pt !important;
   font-style: italic; }
 
-/* line 211, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 212, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view > li,
 .ai1ec-posterboard-view .ai1ec-date-events > li {
   list-style: none !important; }
 
-/* line 214, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 215, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-date-block-wrap {
   float: right;
   margin: 0 0 0.5em 0.5em;
@@ -255,7 +256,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   transition: 0.2s all ease-out;
   -webkit-transform: translatez(0); }
 
-/* line 230, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 231, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event:hover .ai1ec-date-block-wrap {
   opacity: 1;
   -webkit-transition: 0.2s all ease-out;
@@ -265,7 +266,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   transition: 0.2s all ease-out;
   -webkit-transform: translatez(0); }
 
-/* line 239, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 240, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-month {
   color: #ffffff;
   background: rgba(255, 255, 255, 0.2) !important;
@@ -274,17 +275,17 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   padding: 0 0.4em;
   text-transform: uppercase; }
 
-/* line 247, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 248, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-day {
   font-size: 2.2em !important;
   padding: 0.35em 0.2em 0.45em !important;
   font-weight: bolder; }
 
-/* line 252, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 253, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-weekday {
   line-height: 1.5em; }
 
-/* line 255, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 256, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event {
   position: relative;
   overflow: hidden;
@@ -300,7 +301,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-border-radius: 0.5em;
   border-radius: 0.5em; }
 
-/* line 270, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 271, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event .ai1ec-event-wrap {
   margin: 5px;
   background: #f7f3eb;
@@ -310,7 +311,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-box-shadow: 0 0 12px rgba(0, 0, 0, 0.15);
   box-shadow: 0 0 12px rgba(0, 0, 0, 0.15); }
 
-/* line 279, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 280, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event .ai1ec-event-time {
   float: left;
   margin-right: 0.5em;
@@ -318,7 +319,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   font-weight: bold;
   line-height: 1.4em; }
 
-/* line 286, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 287, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event .ai1ec-event-title {
   font-weight: bold;
   font-family: "QuicksandBook", Impact, "Arial Black", Arial, sans-serif;
@@ -327,7 +328,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   color: #555555;
   padding: 0 0 0.4em; }
 
-/* line 294, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 295, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event a {
   opacity: 0.7;
   -moz-opacity: 0.7;
@@ -339,7 +340,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   transition: 0.2s all ease-out;
   -webkit-transform: translatez(0); }
 
-/* line 305, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 306, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event a:hover {
   text-decoration: none;
   opacity: 1;
@@ -352,73 +353,73 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   transition: 0.2s all ease-out;
   -webkit-transform: translatez(0); }
 
-/* line 318, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 319, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event:hover,
 .ai1ec-posterboard-view .ai1ec-event.ai1ec-expanded:hover {
   border-color: #aeaeae; }
 
-/* line 321, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 322, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event.ai1ec-allday {
   padding: 0 !important; }
 
-/* line 324, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 325, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event.ai1ec-allday .ai1ec-event-title {
   margin: 0; }
 
-/* line 327, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 328, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-allday-label {
   font-size: 8pt;
   padding-left: 0.2em; }
 
-/* line 331, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 332, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-category-colors {
   float: left;
   font-size: 0.9em;
   margin: 0.2em 0.2em -0.2em -0.1em; }
 
-/* line 336, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 337, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-category-colors .ai1ec-category-color {
   padding: 0.1em; }
 
-/* line 339, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 340, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event-summary .ai1ec-event-time {
   width: auto;
   float: none;
   font-size: 9pt;
   line-height: 1.5em; }
 
-/* line 346, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 347, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-categories,
 .ai1ec-posterboard-view .ai1ec-tags {
   font-size: 8pt; }
 
-/* line 350, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 351, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event-description,
 .ai1ec-posterboard-view .ai1ec-event-description p {
   font-size: 9pt;
   line-height: 1.5em; }
 
-/* line 354, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 355, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event-description {
   clear: both;
   overflow: hidden;
   max-height: 20em; }
 
-/* line 359, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 360, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event-description p {
   margin: 0.5em 0 0.75em !important;
   padding: 0 !important; }
 
-/* line 363, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 364, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-event-description .ai1ec-label {
   font-size: 8pt; }
 
-/* line 366, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 367, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-posterboard-view .ai1ec-allday .ai1ec-event-description {
   position: relative;
   overflow: hidden; }
 
-/* line 371, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 372, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-grid-container,
 .ai1ec-oneday-view .ai1ec-grid-container {
   position: absolute;
@@ -426,7 +427,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   left: 0;
   right: 0; }
 
-/* line 382, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 383, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-now-marker,
 .ai1ec-oneday-view .ai1ec-now-marker,
 .ai1ec-week-view .ai1ec-hour-marker,
@@ -438,7 +439,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   right: 0;
   padding-right: 8px; }
 
-/* line 389, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 390, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-hour-marker,
 .ai1ec-oneday-view .ai1ec-hour-marker {
   border-top: 1px solid #dddddd;
@@ -446,12 +447,12 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   height: 60px;
   background: rgba(221, 221, 221, 0.4) !important; }
 
-/* line 396, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 397, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-hour-marker.ai1ec-business-hour,
 .ai1ec-oneday-view .ai1ec-hour-marker.ai1ec-business-hour {
   background: none !important; }
 
-/* line 402, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 403, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-hour-marker div,
 .ai1ec-oneday-view .ai1ec-hour-marker div,
 .ai1ec-week-view .ai1ec-allday-label,
@@ -468,25 +469,25 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-border-radius: 0.3em;
   border-radius: 0.3em; }
 
-/* line 416, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 417, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-allday-label,
 .ai1ec-oneday-view .ai1ec-allday-label {
   margin-top: 1px; }
 
-/* line 420, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 421, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-quarter-marker,
 .ai1ec-oneday-view .ai1ec-quarter-marker {
   border-top: 1px solid #dddddd;
   border-top: 1px solid rgba(221, 221, 221, 0.4); }
 
-/* line 425, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 426, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-now-marker,
 .ai1ec-oneday-view .ai1ec-now-marker {
   border-top: 1px solid #f2c539;
   border-bottom: 1px solid rgba(0, 0, 0, 0.15);
   z-index: 2; }
 
-/* line 432, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 433, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-event-container,
 .ai1ec-week-view a.ai1ec-event-container,
 .ai1ec-oneday-view a.ai1ec-event-container {
@@ -496,7 +497,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   font-size: 9pt;
   text-decoration: none !important; }
 
-/* line 441, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 442, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event,
 .ai1ec-week-view .ai1ec-event,
 .ai1ec-oneday-view .ai1ec-event {
@@ -509,7 +510,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   padding: 0 3px 1px;
   white-space: nowrap; }
 
-/* line 456, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 457, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-allday .ai1ec-event,
 .ai1ec-week-view .ai1ec-allday .ai1ec-event,
 .ai1ec-oneday-view .ai1ec-allday .ai1ec-event,
@@ -519,7 +520,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   background-color: #507295;
   color: #ffffff !important; }
 
-/* line 462, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 463, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-category-colors,
 .ai1ec-week-view .ai1ec-category-colors,
 .ai1ec-oneday-view .ai1ec-category-colors {
@@ -527,7 +528,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   font-size: 1.2em;
   margin-top: 1px; }
 
-/* line 472, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 473, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup,
 .ai1ec-week-view .ai1ec-event-popup,
 .ai1ec-oneday-view .ai1ec-event-popup,
@@ -540,7 +541,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
   background: #ffffff; }
 
-/* line 481, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 482, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup,
 .ai1ec-week-view .ai1ec-event-popup,
 .ai1ec-oneday-view .ai1ec-event-popup {
@@ -556,7 +557,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-border-radius: 0 0.3em 0.3em 0;
   border-radius: 0 0.3em 0.3em 0; }
 
-/* line 496, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 497, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup.ai1ec-shifted-right,
 .ai1ec-week-view .ai1ec-event-popup.ai1ec-shifted-right,
 .ai1ec-oneday-view .ai1ec-event-popup.ai1ec-shifted-right {
@@ -564,7 +565,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-border-radius: 0.3em 0 0 0.3em;
   border-radius: 0.3em 0 0 0.3em; }
 
-/* line 503, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 504, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup-bg,
 .ai1ec-week-view .ai1ec-event-popup-bg,
 .ai1ec-oneday-view .ai1ec-event-popup-bg {
@@ -574,14 +575,14 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   padding: 2px 2px 2px 5px;
   background: #ffffff; }
 
-/* line 512, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 513, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-shifted-right .ai1ec-event-popup-bg,
 .ai1ec-week-view .ai1ec-shifted-right .ai1ec-event-popup-bg,
 .ai1ec-oneday-view .ai1ec-shifted-right .ai1ec-event-popup-bg {
   left: 1px;
   padding: 2px 5px 2px 2px; }
 
-/* line 521, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 522, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-summary,
 .ai1ec-week-view .ai1ec-event-summary,
 .ai1ec-oneday-view .ai1ec-event-summary,
@@ -590,7 +591,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
 .ai1ec-oneday-view .ai1ec-event-summary p {
   font-size: 0.95em !important; }
 
-/* line 526, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 527, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-summary,
 .ai1ec-week-view .ai1ec-event-summary,
 .ai1ec-oneday-view .ai1ec-event-summary {
@@ -606,7 +607,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   white-space: normal;
   width: 13em; }
 
-/* line 541, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 542, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-shifted-right .ai1ec-event-summary,
 .ai1ec-week-view .ai1ec-shifted-right .ai1ec-event-summary,
 .ai1ec-oneday-view .ai1ec-shifted-right .ai1ec-event-summary {
@@ -615,21 +616,21 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -moz-border-radius: 0 0.3em 0.3em 0.3em;
   border-radius: 0 0.3em 0.3em 0.3em; }
 
-/* line 549, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 550, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-summary p,
 .ai1ec-week-view .ai1ec-event-summary p,
 .ai1ec-oneday-view .ai1ec-event-summary p {
   margin: 0 0 0.3em !important;
   padding: 0 !important; }
 
-/* line 555, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 556, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-time,
 .ai1ec-week-view .ai1ec-event-time,
 .ai1ec-oneday-view .ai1ec-event-time {
   font-size: 8pt;
   font-weight: bold; }
 
-/* line 561, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 562, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-read-more,
 .ai1ec-week-view .ai1ec-read-more,
 .ai1ec-oneday-view .ai1ec-read-more {
@@ -637,21 +638,21 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   font-size: 8pt;
   color: #97978b; }
 
-/* line 568, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 569, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-event-container,
 .ai1ec-week-view .ai1ec-allday-events a.ai1ec-event-container,
 .ai1ec-oneday-view .ai1ec-allday-events a.ai1ec-event-container {
   position: relative; }
 
-/* line 571, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 572, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view a.ai1ec-event-container {
   margin-right: 10px; }
 
-/* line 574, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 575, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-allday-events a.ai1ec-event-container {
   margin: 0 15px 0 50px; }
 
-/* line 578, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 579, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-week a.ai1ec-event-container,
 .ai1ec-oneday-view .ai1ec-oneday a.ai1ec-event-container {
   border: 2px solid #ccd1d6 !important;
@@ -679,36 +680,36 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   right: 0;
   z-index: 999; }
 
-/* line 604, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 605, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-event-popup {
   top: -3px;
   min-width: 0;
   right: 13em; }
 
-/* line 609, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 610, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-week-view .ai1ec-week .ai1ec-event-popup {
   top: -3px; }
 
-/* line 613, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 614, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday .ai1ec-event-title,
 .ai1ec-week-view .ai1ec-week .ai1ec-event-title {
   display: block;
   white-space: normal;
   font-size: 8pt !important; }
 
-/* line 618, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 619, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event {
   height: 14px;
   line-height: 14px;
   margin: 0 0 1px; }
 
-/* line 623, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 624, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event:hover {
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); }
 
-/* line 628, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 629, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-arrow1 {
   background: #566675;
   border: 7px solid #ffffff;
@@ -720,7 +721,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   top: 0;
   width: 0; }
 
-/* line 639, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 640, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-arrow2 {
   border: 7px solid #566675;
   border-left-color: #ffffff;
@@ -731,7 +732,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   top: 0;
   width: 0; }
 
-/* line 649, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 650, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-bar {
   background: #566675;
   -webkit-border-radius: 3px;
@@ -742,19 +743,19 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   position: absolute;
   top: 0; }
 
-/* line 659, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 660, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-bar .ai1ec-event-title {
   margin-left: 7px; }
 
-/* line 662, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 663, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-bar .ai1ec-event {
   margin: 0; }
 
-/* line 665, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 666, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-multiday-bar .ai1ec-event-time {
   display: none; }
 
-/* line 668, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 669, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-dropdown {
   background: #FFF;
   border: 1px solid #E7E7E7;
@@ -765,11 +766,11 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   width: 90px;
   z-index: 1000; }
 
-/* line 678, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 679, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-obscured {
   display: none !important; }
 
-/* line 682, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 683, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-scroll-up,
 .ai1ec-month-view a.ai1ec-scroll-down {
   border: 1px solid #dddddd;
@@ -790,12 +791,12 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   text-decoration: none !important;
   width: 16px; }
 
-/* line 702, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 703, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-scroll-up:hover,
 .ai1ec-month-view a.ai1ec-scroll-down:hover {
   background-color: #dddddd; }
 
-/* line 706, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 707, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-scroll-up.ai1ec-disabled,
 .ai1ec-month-view a.ai1ec-scroll-down.ai1ec-disabled {
   border: none;
@@ -804,31 +805,31 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   filter: alpha(opacity=20);
   padding: 1px; }
 
-/* line 714, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 715, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view a.ai1ec-scroll-up.ai1ec-disabled:hover,
 .ai1ec-month-view a.ai1ec-scroll-down.ai1ec-disabled:hover {
   background-color: transparent; }
 
-/* line 717, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 718, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup .ai1ec-event-popup-allround {
   border-radius: 0.3em; }
 
-/* line 720, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 721, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup .ai1ec-event-popup-allround .ai1ec-event-popup-bg {
   left: 0;
   margin-right: 2px;
   padding: 2px; }
 
-/* line 725, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 726, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-month-view .ai1ec-event-popup .ai1ec-event-popup-allround .ai1ec-event-summary {
   display: none; }
 
-/* line 729, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 730, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-start-truncated .ai1ec-event-time,
 .ai1ec-week-view .ai1ec-start-truncated .ai1ec-event-time {
   display: none; }
 
-/* line 733, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 734, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday a.ai1ec-event-container.ai1ec-start-truncated,
 .ai1ec-week-view .ai1ec-week a.ai1ec-event-container.ai1ec-start-truncated {
   border-top-left-radius: 0;
@@ -838,7 +839,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -webkit-border-top-left-radius: 0;
   -webkit-border-top-right-radius: 0; }
 
-/* line 742, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 743, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday a.ai1ec-event-container.ai1ec-end-truncated,
 .ai1ec-week-view .ai1ec-week a.ai1ec-event-container.ai1ec-end-truncated {
   border-bottom-left-radius: 0;
@@ -848,7 +849,7 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   -webkit-border-bottom-left-radius: 0;
   -webkit-border-bottom-right-radius: 0; }
 
-/* line 753, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 754, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday .ai1ec-start-truncator,
 .ai1ec-week-view .ai1ec-week .ai1ec-start-truncator,
 .ai1ec-oneday-view .ai1ec-oneday .ai1ec-end-truncator,
@@ -857,31 +858,31 @@ table.ai1ec-oneday-view-original.tablescroll_body tr:first-child td {
   line-height: 1em;
   font-size: 6pt; }
 
-/* line 759, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 760, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday .ai1ec-start-truncator,
 .ai1ec-week-view .ai1ec-week .ai1ec-start-truncator {
   top: -2px;
   left: -2px; }
 
-/* line 764, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 765, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-oneday-view .ai1ec-oneday .ai1ec-end-truncator,
 .ai1ec-week-view .ai1ec-week .ai1ec-end-truncator {
   bottom: -2px;
   right: -2px; }
 
-/* line 769, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 770, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-subscribe {
   clear: both; }
 
-/* line 772, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 773, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-subscribe-filtered {
   display: none; }
 
-/* line 775, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 776, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 i.icon-print {
   padding: 0 7px; }
 
-/* line 778, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 779, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary {
   top: -9999px;
   left: -14px;
@@ -902,27 +903,27 @@ i.icon-print {
   -moz-box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35);
   box-shadow: 0 3px 12px rgba(0, 0, 0, 0.35); }
 
-/* line 810, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 811, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-right .ai1ec-popup-summary {
   left: inherit;
   right: 20px;
   margin-right: -147px; }
 
-/* line 827, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 828, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-wrap {
   position: absolute;
   right: 100%;
   visibility: hidden; }
 
-/* line 832, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 833, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-parent:hover .ai1ec-popup-summary-wrap {
   visibility: visible; }
 
-/* line 835, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 836, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-wrap.ai1ec-popup-summary-right {
   right: 0; }
 
-/* line 838, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 839, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-parent:hover .ai1ec-popup-summary {
   left: 0;
   opacity: 1;
@@ -933,23 +934,23 @@ i.icon-print {
   -moz-transition-delay: 0s;
   transition-delay: 0s; }
 
-/* line 848, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 849, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-parent:hover .ai1ec-popup-summary-right .ai1ec-popup-summary {
   left: inherit;
   right: 0;
   margin-left: 13px; }
 
-/* line 853, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 854, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-title {
   font-size: 12px;
   font-weight: bold; }
 
-/* line 857, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 858, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .timely p.ai1ec-popup-excerpt {
   font-size: 11px;
   overflow: hidden; }
 
-/* line 862, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 863, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary:after,
 .ai1ec-popup-summary:before {
   left: 100%;
@@ -960,32 +961,32 @@ i.icon-print {
   position: absolute;
   pointer-events: none; }
 
-/* line 872, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 873, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-right .ai1ec-popup-summary:after,
 .ai1ec-popup-summary-right .ai1ec-popup-summary:before {
   left: inherit;
   right: 100%; }
 
-/* line 876, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 877, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary:after {
   border-left-color: #ffffff;
   border-width: 7px;
   top: 50%;
   margin-top: -7px; }
 
-/* line 882, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 883, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-right .ai1ec-popup-summary:after {
   border-left-color: transparent;
   border-right-color: #ffffff; }
 
-/* line 886, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 887, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary:before {
   border-left-color: #8c8c8c;
   border-width: 8px;
   top: 50%;
   margin-top: -8px; }
 
-/* line 892, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
+/* line 893, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/calendar.scss */
 .ai1ec-popup-summary-right .ai1ec-popup-summary:before {
   border-left-color: transparent;
   border-right-color: #8c8c8c; }
