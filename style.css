@@ -1941,21 +1941,22 @@ li[class*=" icon-"].icon-large:before {
 /* line 1618, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-category {
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 1pt;
   color: #fff !important;
-  background: grey; }
+  background: grey;
+  font-family: 'QuicksandBold'; }
 
-/* line 1626, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1627, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-category:hover {
   background: #cc2933; }
 
-/* line 1629, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1630, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-category.ai1ec-selected {
   background: #cc2933; }
 
-/* line 1632, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1633, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-category-color {
   -webkit-border-radius: 0.2em;
   -moz-border-radius: 0.2em;
@@ -1968,7 +1969,7 @@ li[class*=" icon-"].icon-large:before {
   margin: 0 1px;
   width: 0.9em; }
 
-/* line 1644, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1645, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-tag {
   color: #507295 !important;
   line-height: 1.3em;
@@ -1981,16 +1982,16 @@ li[class*=" icon-"].icon-large:before {
   border-radius: 0.3em;
   display: inline-block; }
 
-/* line 1656, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1657, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-tag:hover {
   color: #354c63 !important;
   text-decoration: none; }
 
-/* line 1660, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1661, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-tag.ai1ec-selected {
   background: #999999; }
 
-/* line 1663, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
+/* line 1664, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/style.scss */
 .ai1ec-subscribe-google img {
   background: none !important;
   border: none !important;

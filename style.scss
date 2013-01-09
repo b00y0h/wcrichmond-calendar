@@ -1617,11 +1617,12 @@ li[class*=" icon-"].icon-large:before {
 }
 .ai1ec-category {
   cursor: pointer;
-  font-size: 0.9em;
+  font-size: 1em;
   text-transform: uppercase;
   letter-spacing: 1pt;
   color: #fff !important;
   background: grey;
+  font-family: 'QuicksandBold';
 }
 .ai1ec-category:hover {
   background: $red;
