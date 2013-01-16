@@ -1,9 +1,9 @@
 <div id="agenda-images">
-    <img class="agenda-image" id="image1" src="<?php echo $this->get_theme_img_url( 'ArtCulture.jpg' ); ?>" alt="">
-    <img class="agenda-image" id="image2" style="display:none" src="<?php echo $this->get_theme_img_url( 'loom.jpg' ); ?>" alt="">
-    <img class="agenda-image" id="image3" style="display:none" src="<?php echo $this->get_theme_img_url( 'SocialEducational.jpg' ); ?>" alt="">
-    <img class="agenda-image" id="image4" style="display:none" src="<?php echo $this->get_theme_img_url( 'Spiritual.jpg' ); ?>" alt="">
-    <img class="agenda-image" id="image5" style="display:none" src="<?php echo $this->get_theme_img_url( 'Wellness.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="category-image10" src="<?php echo $this->get_theme_img_url( 'ArtCulture.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="category-image9" style="display:none" src="<?php echo $this->get_theme_img_url( 'loom.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="category-image11" style="display:none" src="<?php echo $this->get_theme_img_url( 'SocialEducational.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="category-image8" style="display:none" src="<?php echo $this->get_theme_img_url( 'Spiritual.jpg' ); ?>" alt="">
+    <img class="agenda-image" id="category-image12" style="display:none" src="<?php echo $this->get_theme_img_url( 'Wellness.jpg' ); ?>" alt="">
 </div>
 <h2 class="ai1ec-calendar-title"><?php // echo esc_html( $title ); ?></h2>
 <div class="ai1ec-title-buttons btn-toolbar">
