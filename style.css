@@ -2041,52 +2041,53 @@ li[class*=" icon-"].icon-large:before {
 .ai1ec-agenda-view .ai1ec-date-title {
   font-size: 16px;
   text-transform: uppercase;
-  margin: 1em 0; }
-/* line 49, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  margin: 0;
+  padding-top: 1em; }
+/* line 50, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-view .ai1ec-event-title {
   font-family: 'QuicksandBook';
   color: #cc2933; }
-/* line 53, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 54, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-view .ai1ec-date-events {
   margin: 0 0 .75em 1em !important;
   padding: 0 !important; }
-  /* line 56, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 57, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-view .ai1ec-date-events > li {
     list-style: none !important; }
-/* line 60, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 61, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-view > li {
   list-style: none !important; }
-/* line 63, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 64, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-view .ai1ec-event-header {
   color: black;
   font-size: 14px; }
-/* line 67, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 68, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-view .ai1ec-agenda-view {
   margin: 0;
   padding: 0; }
 
-/* line 73, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 74, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-dropdown, .ai1ec-label {
   display: none!important; }
 
-/* line 77, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+/* line 78, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
 .ai1ec-agenda-widget-view {
   color: black; }
-  /* line 78, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 79, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view ol, .ai1ec-agenda-widget-view li {
     list-style: none;
     margin: 0;
     padding: 0; }
-  /* line 79, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 80, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view ol {
     margin: 0 1em; }
-  /* line 81, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 82, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view .ai1ec-event-title {
     font-weight: bold; }
-  /* line 84, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 85, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view a, .ai1ec-agenda-widget-view a:hover {
     color: black;
     text-decoration: none; }
-  /* line 88, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  /* line 89, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view .ai1ec-event-location, .ai1ec-agenda-widget-view .ai1ec-event-time, .ai1ec-agenda-widget-view .ai1ec-allday-label {
     color: #cc2933; }
