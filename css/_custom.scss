@@ -89,4 +89,10 @@
     .ai1ec-event-location, .ai1ec-event-time, .ai1ec-allday-label {
         color:$red;
     }
+    .ai1ec-date{
+    display:none;
+        &.ai1ec-today {
+        display:block;
+      }
+  }
 }

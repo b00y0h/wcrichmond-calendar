@@ -2091,3 +2091,9 @@ li[class*=" icon-"].icon-large:before {
   /* line 89, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
   .ai1ec-agenda-widget-view .ai1ec-event-location, .ai1ec-agenda-widget-view .ai1ec-event-time, .ai1ec-agenda-widget-view .ai1ec-allday-label {
     color: #cc2933; }
+  /* line 92, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+  .ai1ec-agenda-widget-view .ai1ec-date {
+    display: none; }
+    /* line 94, /Users/bobby/Sites/wordpress/wp-content/themes-ai1ec/wcrichmond/css/_custom.scss */
+    .ai1ec-agenda-widget-view .ai1ec-date.ai1ec-today {
+      display: block; }
