@@ -33,8 +33,8 @@
 			<li class="ai1ec-date <?php if( isset( $date_info['today'] ) && $date_info['today'] ) echo 'ai1ec-today' ?>
 				<?php if ( $show_year_in_agenda_dates ) echo 'ai1ec-agenda-plus-year' ?>">
 				<div class="ai1ec-date-title">
-					<span class="ai1ec-month"><?php echo date_i18n( 'F', $timestamp, true ) ?></span>,
-					<span class="ai1ec-day"><?php echo date_i18n( 'd', $timestamp, true ) ?></span>
+					<span class="ai1ec-month"><?php echo date_i18n( 'F', $timestamp, true ) ?></span>
+					<span class="ai1ec-day"><?php echo date_i18n( 'd', $timestamp, true ) ?></span>,
 					<span class="ai1ec-weekday"><?php // echo date_i18n( 'D', $timestamp, true ) ?></span>
 					<?php if ( $show_year_in_agenda_dates ): ?>
 						<span class="ai1ec-year"><?php echo date_i18n( 'Y', $timestamp, true ) ?></span>
